@@ -1,6 +1,7 @@
 # DRV8323S_BreakoutBoard
 
-Simple DRV8323S Breakout board
+Simple DRV8323S Breakout board. 
+Untested and designed by someone with little experience. Use at your own risk.
 
 30v 60a mosfets. I dont recommend pushing the board that hard however.
 
