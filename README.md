@@ -9,8 +9,10 @@ I'll probably post updates with safe limits for the board as I test it.
 
 The DRV8323S supports using the fets as current shunts. Cut the three jumpers and short the current shunts if you want to try that.
 
-![DRV8323S_3DBack](https://github.com/user-attachments/assets/27252ecd-a2e6-4979-b78f-f7c0e13a6426)
-![DRV8323S_3DFront](https://github.com/user-attachments/assets/1ed73588-a8bd-4613-9d26-fafa3734c380)
+
+![DRV8323S_V0_3D_Front](https://github.com/user-attachments/assets/c17cb97a-c593-4536-872e-f9a067748fcb)
+![DRV8323S_V0_3D_Back](https://github.com/user-attachments/assets/c48f718c-2895-4fa4-b10c-41f2356522f5)
 
 
-Relavant forum post here https://community.simplefoc.com/t/drv8323-breakout-board/5608
+
+[Relavant forum post here https://community.simplefoc.com/t/drv8323-breakout-board/5608](https://community.simplefoc.com/t/drv8323s-breakout-board-attempt-2-requests-for-comment/5649/2)
