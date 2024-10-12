@@ -1985,6 +1985,276 @@
 				)
 			)
 		)
+		(symbol "PCM_Capacitor_AKL:CP_Radial_D12.5mm_P5.00mm"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP_Radial_D12.5mm_P5.00mm"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Radial_D12.5mm_P5.00mm"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "THT Electrolytic Capacitor, 12.5mm Diameter, 5.00mm Pitch, European Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor polarized eu tht radial electrolytic 12.5mm 5.00mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP_Radial_D12.5mm_P5.00mm_0_1"
+				(rectangle
+					(start -2.286 1.016)
+					(end 2.286 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "CP_Radial_D12.5mm_P5.00mm_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.6604 -0.6604)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 1.016 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6604 0.6604) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.8796 0.6096) (xy 0.6096 -1.8796) (xy 0.9652 -1.524) (xy -1.524 0.9652) (xy -1.8796 0.6096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.9652 1.524) (xy 1.524 -0.9652) (xy 1.8796 -0.6096) (xy -0.6096 1.8796) (xy -0.9652 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP_Radial_D12.5mm_P5.00mm_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CP_Radial_D12.5mm_P5.00mm_1_2"
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_Capacitor_AKL:C_0201"
 			(pin_numbers hide)
 			(pin_names
@@ -3196,16 +3466,16 @@
 		(uuid "3a749928-a896-442b-9697-90d522fe9ee7")
 	)
 	(junction
+		(at 172.72 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49629f57-241e-4c33-a434-118b54b80912")
+	)
+	(junction
 		(at 172.72 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c80b15a-a91d-40e7-b1e1-01d3f532bfe6")
-	)
-	(junction
-		(at 172.72 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4dbc8a8b-2847-4f7d-8cc8-419c494c2125")
 	)
 	(junction
 		(at 74.93 130.81)
@@ -3220,12 +3490,6 @@
 		(uuid "711c3da0-84ed-4c45-978c-938c7bed70e6")
 	)
 	(junction
-		(at 208.28 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e24f3d0-5e36-4955-94c5-4fef2205fad8")
-	)
-	(junction
 		(at 76.2 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3236,6 +3500,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa0bb935-b36d-47b1-ab3d-24b2e7e4846e")
+	)
+	(junction
+		(at 208.28 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afb43bf5-9d23-45cd-8a32-5c34c58f17df")
 	)
 	(junction
 		(at 208.28 143.51)
@@ -3637,6 +3907,25 @@
 		)
 		(uuid "512a3b01-9e6d-4ae5-9ce6-b1003f21b37c")
 	)
+	(text_box "Bulk Smoothing Capacitance"
+		(exclude_from_sim no)
+		(at 229.87 60.96 0)
+		(size 30.48 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "74f7e0d1-103a-41bd-ac55-85c5a0503422")
+	)
 	(text_box "Pins Out"
 		(exclude_from_sim no)
 		(at 156.21 52.07 0)
@@ -3688,7 +3977,7 @@
 	)
 	(text "Look into \"Figure 42. V DS Current Sense Mode\"\n\nCut the SPx jumpers and short the current sense resistors"
 		(exclude_from_sim no)
-		(at 273.812 143.256 0)
+		(at 254.508 177.292 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4490,7 +4779,7 @@
 	)
 	(global_label "SOC"
 		(shape input)
-		(at 173.99 62.23 270)
+		(at 168.91 62.23 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4500,7 +4789,7 @@
 		)
 		(uuid "7695ac40-bda5-487c-986d-1ced1bb70940")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 69.0252 90)
+			(at 168.91 69.0252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5549,7 @@
 	)
 	(global_label "SOA"
 		(shape input)
-		(at 168.91 62.23 270)
+		(at 173.99 62.23 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5270,7 +5559,7 @@
 		)
 		(uuid "fbed2835-22d0-4685-ae5b-9fb947dd5885")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 68.8438 90)
+			(at 173.99 68.8438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5517,7 +5806,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 165.1 190.5 90)
+		(at 165.1 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5525,7 +5814,7 @@
 		(dnp no)
 		(uuid "08084140-db25-46cd-8d53-9db2e1523e4a")
 		(property "Reference" "J4"
-			(at 166.624 196.088 90)
+			(at 166.624 197.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5822,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 166.624 193.294 90)
+			(at 166.624 194.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5830,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5839,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5848,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5857,7 @@
 			)
 		)
 		(property "Part_Number" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5866,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +5875,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,7 +5884,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5893,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5902,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5911,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5920,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5929,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5938,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5947,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5667,7 +5956,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +5965,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 165.1 190.5 0)
+			(at 165.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6239,7 +6528,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 167.64 185.42 270)
+		(at 167.64 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6247,7 +6536,7 @@
 		(dnp no)
 		(uuid "0f6670c5-b0a4-4c94-a9a4-483c0e046c34")
 		(property "Reference" "#PWR027"
-			(at 163.83 185.42 0)
+			(at 163.83 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,7 +6545,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 172.212 185.166 0)
+			(at 172.212 187.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6264,7 +6553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 185.42 0)
+			(at 167.64 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6273,7 +6562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 185.42 0)
+			(at 167.64 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +6571,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 167.64 185.42 0)
+			(at 167.64 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,6 +7041,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 238.76 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e67b1fe-0d6c-4531-a8a9-2fbf5ea28869")
+		(property "Reference" "#PWR05"
+			(at 242.57 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 234.188 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 238.76 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14eaee4-610c-4a72-80c7-fafad56edd99")
+		)
+		(instances
+			(project "DRV8323_BreakoutBoard"
+				(path "/04af29eb-b17b-478b-b031-12617d04e610"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 83.82 83.82 0)
 		(unit 1)
@@ -7004,6 +7358,192 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 176.53 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23f75f6b-a743-427c-9b29-bcfadc1030aa")
+		(property "Reference" "C2"
+			(at 172.466 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_0805_10uF"
+			(at 171.704 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 172.72 134.3152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Number" "GRM21BR61H106KE43K"
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 176.53 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94123169-ba25-45af-9efe-558f504c526f")
+		)
+		(pin "2"
+			(uuid "7834483b-1bf7-4109-bc35-7c5125143603")
+		)
+		(instances
+			(project "DRV8323_BreakoutBoard"
+				(path "/04af29eb-b17b-478b-b031-12617d04e610"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 172.72 91.44 90)
 		(unit 1)
@@ -7184,6 +7724,73 @@
 			(project "DRV8316C_D30mm_Test"
 				(path "/04af29eb-b17b-478b-b031-12617d04e610"
 					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "269e2297-91d3-4169-8df1-2642aa19a704")
+		(property "Reference" "#PWR04"
+			(at 232.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73557247-b09d-40bd-980a-289b7ca21070")
+		)
+		(instances
+			(project "DRV8323_BreakoutBoard"
+				(path "/04af29eb-b17b-478b-b031-12617d04e610"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9501,33 +10108,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0805")
-		(at 212.09 133.35 90)
+		(lib_id "PCM_Capacitor_AKL:CP_Radial_D12.5mm_P5.00mm")
+		(at 238.76 73.66 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "7359a408-da7c-418b-92f9-077e307ec019")
-		(property "Reference" "C26"
-			(at 212.09 125.73 90)
+		(on_board yes)
+		(dnp no)
+		(uuid "72420edb-6344-4818-90af-a49b69fdc989")
+		(property "Reference" "C3"
+			(at 238.76 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_0603_1uF"
-			(at 212.09 128.27 90)
+		(property "Value" "Cap_D12.5mm_1000uF"
+			(at 238.76 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 215.9 132.3848 0)
+		(property "Footprint" "PCM_Capacitor_THT_AKL:CP_Radial_D12.5mm_P5.00mm"
+			(at 238.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +10143,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 133.35 0)
+			(at 238.76 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,8 +10151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
-			(at 212.09 133.35 0)
+		(property "Description" "THT Electrolytic Capacitor, 12.5mm Diameter, 5.00mm Pitch, European Symbol, Alternate KiCad Library"
+			(at 238.76 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,116 +10160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part_Number" "GRJ21BC72A105ME11L"
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 212.09 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 212.09 133.35 0)
+		(property "Part_Number" "ECA-1HM102B"
+			(at 238.76 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9671,15 +10170,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "321e154b-9ad5-4195-9978-f112179ed40a")
+			(uuid "274defb0-7f5f-4bb2-966a-b378f3c115b0")
 		)
 		(pin "1"
-			(uuid "82fa02ad-7857-4802-906c-e5fdb485ec54")
+			(uuid "9437aaa5-5b24-4af1-890e-35d38021ed09")
 		)
 		(instances
-			(project "DRV8316C_D30mm_Test"
+			(project ""
 				(path "/04af29eb-b17b-478b-b031-12617d04e610"
-					(reference "C26")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10258,190 +10757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0805")
-		(at 176.53 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(uuid "8ff7b263-925a-492a-93d8-95a3ff7f4213")
-		(property "Reference" "C24"
-			(at 176.53 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_0603_1uF"
-			(at 179.578 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 180.34 93.0148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" "GRJ21BC72A105ME11L"
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b8ca5c80-f885-4a05-b638-8a82d0c6ccee")
-		)
-		(pin "1"
-			(uuid "c937a0e3-0c0d-4a4e-b87a-525f138e3eb0")
-		)
-		(instances
-			(project "DRV8316C_D30mm_Test"
-				(path "/04af29eb-b17b-478b-b031-12617d04e610"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 134.62 195.58 90)
 		(unit 1)
@@ -11013,31 +11328,33 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0805")
-		(at 176.53 133.35 90)
+		(at 176.53 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
-		(dnp yes)
-		(uuid "bf9dc821-527b-452b-8c10-c1376b06cc9f")
-		(property "Reference" "C20"
-			(at 176.53 125.73 90)
+		(on_board yes)
+		(dnp no)
+		(uuid "bae8fdaf-c80a-482f-b4ab-6792842caff1")
+		(property "Reference" "C5"
+			(at 172.974 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "C_0603_1uF"
-			(at 176.784 128.778 90)
+		(property "Value" "C_0805_10uF"
+			(at 173.482 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 180.34 132.3848 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 172.72 94.9452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11046,7 +11363,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11055,7 +11372,7 @@
 			)
 		)
 		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11063,8 +11380,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part_Number" "GRJ21BC72A105ME11L"
-			(at 176.53 133.35 0)
+		(property "Part_Number" "GRM21BR61H106KE43K"
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11073,7 +11390,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11082,7 +11399,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11091,7 +11408,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11100,7 +11417,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11109,7 +11426,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11118,7 +11435,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11127,7 +11444,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +11453,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11145,7 +11462,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11154,7 +11471,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11163,7 +11480,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11172,7 +11489,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 176.53 133.35 0)
+			(at 176.53 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,16 +11497,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "08c83ef5-ac9c-46f7-8753-b8637cf2cda8")
-		)
 		(pin "1"
-			(uuid "d1c3ec92-9c39-4f0c-a53b-da6946a1784d")
+			(uuid "b044dedb-569b-43e3-86fb-8a435a8004b7")
+		)
+		(pin "2"
+			(uuid "109a284b-f9bf-43bb-9f00-5d69d516ff47")
 		)
 		(instances
-			(project "DRV8316C_D30mm_Test"
+			(project "DRV8323_BreakoutBoard"
 				(path "/04af29eb-b17b-478b-b031-12617d04e610"
-					(reference "C20")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11583,7 +11900,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 185.42 270)
+		(at 165.1 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11592,7 +11909,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9941df6-858c-46a6-b7bd-d68cbc219c2e")
 		(property "Reference" "#PWR024"
-			(at 158.75 185.42 0)
+			(at 158.75 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,7 +11918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 185.4199 90)
+			(at 161.29 187.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11610,7 +11927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 185.42 0)
+			(at 165.1 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11619,7 +11936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 185.42 0)
+			(at 165.1 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11628,7 +11945,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 185.42 0)
+			(at 165.1 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12492,6 +12809,192 @@
 			(project "DRV8323_BreakoutBoard"
 				(path "/04af29eb-b17b-478b-b031-12617d04e610"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0805")
+		(at 212.09 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff70bddc-026c-4c7a-b94f-47b8250bf5d2")
+		(property "Reference" "C4"
+			(at 208.026 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_0805_10uF"
+			(at 207.264 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 208.28 134.3152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part_Number" "GRM21BR61H106KE43K"
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 212.09 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a199bb41-9246-444d-b088-c175941756a4")
+		)
+		(pin "2"
+			(uuid "15f51911-d95d-43f8-8fc4-9334561adf5e")
+		)
+		(instances
+			(project "DRV8323_BreakoutBoard"
+				(path "/04af29eb-b17b-478b-b031-12617d04e610"
+					(reference "C4")
 					(unit 1)
 				)
 			)
